@@ -1,0 +1,270 @@
+
+
+
+body {
+    background: url(background-gris.png) center/cover ;
+    height: 3vh;
+}
+    
+ 
+ 
+ h1
+  {
+     color: white;
+     text-transform: uppercase;
+     border-bottom: rgb(252, 252, 252) 2px solid;
+     letter-spacing: 2px;
+     font-size: 3.5rem;
+     text-align: center;
+     font-weight: bold;
+     font-family: kerox ; 
+ }
+
+ h3 {
+     color: white;
+     font-family: kerox ;
+     font-size: 1.75em;
+ }
+
+ 
+ @font-face {
+     font-family: kerox;
+     src: url(Kerox-NonCommercial.otf);
+ }
+ section
+ {
+     color: #9e9e9e;
+     font-family: kerox;
+ }
+ 
+ .date
+ {
+     font-weight: bold;
+ }
+
+
+
+ .recherche
+ {
+     position: absolute;
+     margin-left: 30%;
+     margin-top: -10%;
+ }
+
+ .Présentation
+ {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 0%;
+ }
+
+ .Experience
+ {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 0%;
+ }
+
+ .education
+ {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 55%;
+ }
+
+ .projet
+ {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 77%;
+ }
+
+ .diplome
+ {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 90%;
+ }
+
+ .es
+ {
+     margin-left: 30%;
+	align-content: space-between;
+    margin-top: -0%;
+}
+.date
+{
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+#img
+{
+    position: relative;
+    bottom: 148em;
+    border-radius: 50%;
+}
+#linkedin
+{
+    text-decoration: none;
+}
+
+.info
+{
+    position: relative;
+    bottom: 95em;
+    left: 20%;
+    color: white;
+    font-weight: bold;
+
+}
+.cd
+{
+    position: relative;
+    bottom: 85em;
+    margin-left: -6px;
+}
+ 
+/FORUMLAIRE D'ENVOI/
+
+@font-face {
+    font-family: kerox;
+    src: url(Kerox-NonCommercial.otf);
+}
+
+body
+{
+    
+}
+.formulaire
+{
+    font-family: kerox;
+    font-weight: bold;
+    background-color:white;
+    padding: 30px 30px;
+    position: absolute;
+     top: 230%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+
+}
+form h2
+{
+    
+}
+
+form .separation
+{
+    width: 100%;
+    height: 2pX ;
+    background-color: hsl(0, 2%, 25%);
+}
+
+form .corps-formulaire
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+form .corps-formulaire .groupe
+{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+form .corps-formulaire .gauche .groupe input
+{
+margin-top: 5px;
+padding: 10px 5px 10px 30px;
+border: 2px solid black;
+
+border-radius: 5px;
+
+}
+form .corps-formulaire .gauche .groupe i
+{
+position: absolute;
+left: 0;
+top: 25px;
+padding: 9px 8px;
+color: hsl(0, 2%, 25%);
+
+}
+
+form .corps-formulaire .droite
+{
+ margin-left: 40px;
+}
+form .corps-formulaire .droite .groupe
+{
+    height: 100%;
+}
+
+form .corps-formulaire .droite .groupe .boite .textarea 
+{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 2px solid    hsl(0, 2%, 25%);
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 72%;
+    padding-bottom: 90px;
+    padding-top: 40px;
+}
+
+form .pied-formulaire button
+{
+    font-family: kerox;
+margin-top: 28px;
+background-color:  hsl(0, 2%, 25%);
+;
+color: white;
+font-size: 15px;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+transition: transform 0,3s;
+}
+
+form .pied-formulaire button:hover
+{
+    background: black;
+    color: white;
+}
+    
+@media screen and (max-width:920px)
+{
+    form .corps-formulaire .droite
+    {
+        margin-left: 0px;
+    } 
+}
+
+.annexe
+{
+    color: white;
+    font-family: Kerox;
+    font-size: 4em;
+    position: absolute;
+    top: 195%;
+    left: 73%;
+
+}
+
+.knm
+{
+    color: #9e9e9e;
+    font-size: 1.5em;
+    font-family: kerox;
+    position: absolute;
+    top: 217%;
+    left: 74%;
+}
+ 
